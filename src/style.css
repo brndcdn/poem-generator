@@ -1,0 +1,80 @@
+body {
+  background-color: hsl(41, 100%, 94%);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: hsl(28, 100%, 8%);
+  transition: color 200ms;
+}
+
+a:hover {
+  color: hsl(28, 100%, 24%);
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: hsl(28, 100%, 8%);
+}
+
+form {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px hsla(28, 32%, 29%, 0.08);
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid hsla(28, 100%, 8%, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: hsl(28, 100%, 8%);
+}
+
+.submit-button {
+  margin-left: 10px;
+  background: hsl(28, 99%, 72%);
+  color: hsl(28, 100%, 8%);
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 14px 24px;
+  transition: background 400ms;
+}
+
+.submit-button:hover {
+  background: hsl(28, 99%, 80%);
+}
+
+.poem {
+  font-size: 16px;
+  background-color: white;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid hsl(28, 99%, 72%);
+  box-shadow: 0px 4px 30px 0px hsla(28, 100%, 8%, 0.03);
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+}
