@@ -29,6 +29,12 @@ h1 {
   color: hsl(28, 100%, 8%);
 }
 
+.poem strong {
+  color: hsl(28, 100%, 8%);
+  font-style: italic;
+  font-size: 14px;
+}
+
 form {
   padding: 30px;
   background-color: white;
